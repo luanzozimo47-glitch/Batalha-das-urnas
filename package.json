@@ -1,0 +1,10 @@
+{
+  "name": "batalha-das-urnas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Placar visual 22 x 13 com endpoint para eventos de presentes TikTok LIVE",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "tiktok-live-connector": "^2.1.0" }
+}
